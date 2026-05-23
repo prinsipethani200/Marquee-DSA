@@ -1,0 +1,19 @@
+Java : popular
+     : high level
+     : oop
+     : platform indepened
+     : compiled & interpreted lang.
+
+@ Firstly code will be compiled and convert into bytecode by JVM
+@ And than interpreted...
+@ first released by Sun Microsystems in 1995 and now owned by Oracle
+
+features of java:
+- platform indepened
+- oop
+- security
+- robust
+- Multithreaded
+- automatic memory management(Garbage collector)
+- high performance
+- scalability
