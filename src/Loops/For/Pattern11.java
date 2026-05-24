@@ -1,4 +1,4 @@
-package Loops;
+package Loops.For;
 
 import java.util.Scanner;
 //diomand
