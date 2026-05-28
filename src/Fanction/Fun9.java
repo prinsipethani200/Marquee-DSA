@@ -14,7 +14,7 @@ public class Fun9 {
             if (rem < 10) {
                 result = rem + result;
             } else {
-                result = (char)(rem + 55) + result;
+                result = (char)(rem + 55) + result;  // res = (char)(rem - 10 +'A') + res;
             }
 
             num = num / base;

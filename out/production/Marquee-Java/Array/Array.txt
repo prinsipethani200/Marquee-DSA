@@ -1,0 +1,12 @@
+Array : collection of same datatype
+      : fix size...
+      : based on indexing...(0 based)
+      : continues memory location...
+
+declaration : int[] arr; (int type arr...)// most preferable...
+            : int arr[]; (arr type arr...)
+
+initialisation : int[] arr = {1,2,3}
+
+length : arr_name.length;
+               :

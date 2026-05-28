@@ -4,22 +4,16 @@ import java.util.*;
 //decimal to hexa...
 public class Fun7 {
     static String DecimalToHex(int num) {
-
         String hex = "";
-
         while (num > 0) {
-
             int rem = num % 16;
-
             if (rem < 10) {
                 hex = rem + hex;
             } else {
                 hex = (char) (rem + 55) + hex;
             }
-
             num = num / 16;
         }
-
         return hex;
     }
 
