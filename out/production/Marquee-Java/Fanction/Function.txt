@@ -1,0 +1,73 @@
+Function: block of code...
+  Syntax: modifier ret_type fun_name(parameter){
+            fun_body
+            return value;
+            }
+
+   why fun?
+   -code reusability
+   -redability
+   -Modularity
+   -easy to debug
+
+
+   instance methods: to call this fun required an object...
+   static methods: they can call directly using class name...
+
+sequential flow of fun...
+   flow : First Function
+          Second Function
+          Third Function
+
+context of the fun... (gloabl scope,local,...this...)
+Local Scope → Variable inside function/block, usable only there.
+Global Scope → Variable inside class, accessible by all methods.
+Parameter Scope → Function input variables, usable only inside function.
+this keyword → Refers to current object.
+Block Scope → Variable inside { }, usable only in that block.
+
+//call stack or heap memory(lvt,how obj store,stack frame,which is fast,consistence)
+Stack Memory → Stores local variables & function calls, very fast, auto deleted.
+Heap Memory → Stores objects & arrays, slower, managed by Garbage Collector.
+LVT → Local Variable Table inside stack frame.
+Stack Frame → Created for every function call, stores method data.
+Object Storage → Reference in stack, actual object in heap.
+Faster → Stack is faster than heap.
+Consistency → Stack is fixed/organized, heap is dynamic/flexible.
+
+
+//pass by value or pass by reference...
+Pass by Value → Copy of variable is passed. Original value does not change.
+Pass by Reference → Address/reference is passed. Original data can change.
+
+
+//what are para. fun?
+//what are arg in fun?
+//para & arg independent or dependent...
+//public static void add(){ fun body }   ..non-parametrize fun
+//public static void add(int a ,int b){ fun body }  ..parametrize fun
+Parameter → Variable in function definition.
+Argument → Actual value passed to function.
+Relation → Parameters and arguments are dependent.
+
+
+//recursive fun... (a fun calling itself within its own body...)
+
+
+//fun overloading...
+Same function name, different parameters.
+
+//fun overriding...(@override)
+Function Overriding → Child class provides new implementation of parent class method.
+@Override is used before overriding method.
+
+//oop...
+Programming based on objects and classes.
+
+Main Concepts:
+Class → Blueprint of object
+Object → Real instance of class
+Encapsulation → Data hiding
+Inheritance → One class acquires another class properties
+Polymorphism → Many forms (overloading & overriding)
+Abstraction → Hiding implementation details
