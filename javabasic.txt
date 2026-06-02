@@ -17,3 +17,6 @@ features of java:
 - automatic memory management(Garbage collector)
 - high performance
 - scalability
+
+
+Time complexity: it is amount of time an algorithmtakes of complrtr as afunction of it input size....

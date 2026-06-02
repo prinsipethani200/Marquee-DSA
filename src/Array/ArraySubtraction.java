@@ -3,7 +3,7 @@ import java.util.*;
 
 //Subtracting 2 different array of different size, borrow concept
 public class ArraySubtraction {
-    static int[] subtractArray(int arr[], int brr[], int n,int m) {
+    static int[] subtractArray(int arr[], int brr[],int n, int m) {
         String num1 = "";
         for(int num:arr){
             num1 += num;
@@ -25,6 +25,7 @@ public class ArraySubtraction {
         }
 
         return ans;
+
     }
 
     static void main() {
@@ -44,7 +45,7 @@ public class ArraySubtraction {
             b[i] = sc.nextInt();
         }
 
-        int ans[] = subtractArray(a, b, n,m);
+        int ans[] = subtractArray(a, b,n,m);
 
         for(int i = 0; i < (Math.max(n,m)); i++) {
             System.out.print(ans[i] + " ");
