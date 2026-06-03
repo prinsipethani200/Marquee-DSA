@@ -2,29 +2,30 @@ package Array;
 import java.util.*;
 
 public class ArraySubarray {
-    static void print(int[] arr,int i,int j){
-        for(int k = i ; k <j ;k++){
-            System.out.print(arr[i] +" ");
+
+    static void print(int[] arr, int i, int j) {
+        for (int k = i; k <= j; k++) {
+            System.out.print(arr[k] + " ");
         }
         System.out.println();
     }
-    static void main() {
+
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         int n = sc.nextInt();
         int[] arr = new int[n];
-        for(int i = 0 ; i < n ; i++ ){
+
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
 
-
-        for(int i = 0 ; i < n ; i++){
-           for(int j = i ;j < n ; j++){
-
-                   print(arr,i,j);
-
-           }
-
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                print(arr, i, j);
+            }
         }
 
+        sc.close();
     }
 }
