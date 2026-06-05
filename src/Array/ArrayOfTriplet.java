@@ -21,7 +21,7 @@ public class ArrayOfTriplet {
 //    }
 
     static void triplet(int[] arr,int n){
-        System.out.println("");
+
         for(int j = 1 ; j < n ; j++){
             int i = j + 1;
             while(i >= 0){
